@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+  --gradient: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  --border: 1px solid rgb(147, 156, 227);
+  --font-family: sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 60px auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-family: var(--font-family);
+}
+h1 {
+  font-size: 8vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 3vw;
+}
+
+h3 {
+  line-height: 2px;
+  font-size: 2vw;
+}
+
+h4 {
+  line-height: 5px;
+  font-size: 2vw;
+}
+
+.navigation-links {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  padding: 20px;
+  border: var(--border);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.about-me-content {
+  display: flex;
+  margin: 50px 0;
+}
+
+.about-me-content p {
+  margin: 20px;
+}
+
+p {
+  color: black;
+  font-family: var(--font-family);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.homepage {
+  display: block;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.email {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  margin-top: -10px;
+  text-decoration: none;
+}
+
+.email-contact {
+  margin-top: 50px;
+}
+.email:hover {
+  text-decoration: underline;
+}
+
+.yogurt {
+  color: white;
+  background: #834ed2;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.yogurt:hover {
+  color: black;
+}
+
+.yoga-heading {
+  margin-top: -30px;
+}
+
+.app-link {
+  background: #6c63ff;
+  color: white;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
